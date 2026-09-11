@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, CheckCircle2, ArrowRight } from 'lucide-react';
+import { Award, ArrowRight } from 'lucide-react';
 import { doctorsData } from '../../data/doctorsData';
 import { Doctor } from '../../types';
 

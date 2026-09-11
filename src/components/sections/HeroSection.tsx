@@ -3,10 +3,10 @@ import { Calendar, Phone, ShieldCheck, MapPin, Sparkles, Award, Users } from 'lu
 
 interface HeroSectionProps {
   onOpenBooking: () => void;
-  onNavigate: (tab: string) => void;
+  onNavigate?: (tab: string) => void;
 }
 
-export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking, onNavigate }) => {
+export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking }) => {
   return (
     <section className="relative overflow-hidden hero-lux pt-16 pb-24 lg:pt-24 lg:pb-32 text-white">
       {/* Ambient glows */}

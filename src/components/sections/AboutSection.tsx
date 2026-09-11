@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Award, Sparkles, HeartHandshake, Users, CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, Sparkles, HeartHandshake, CheckCircle2 } from 'lucide-react';
 import { DoctorsSection } from './DoctorsSection';
 
 interface AboutSectionProps {

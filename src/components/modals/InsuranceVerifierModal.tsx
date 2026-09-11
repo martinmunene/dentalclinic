@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, ShieldCheck, CheckCircle2, ArrowRight, Phone, MessageCircle } from 'lucide-react';
+import { X, ShieldCheck, CheckCircle2, ArrowRight, MessageCircle } from 'lucide-react';
 import { insuranceData } from '../../data/insuranceData';
 
 interface InsuranceVerifierModalProps {

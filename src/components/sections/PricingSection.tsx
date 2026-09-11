@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, Calendar, ArrowRight, ShieldCheck } from 'lucide-react';
+import { Check, Calendar, ShieldCheck } from 'lucide-react';
 import { pricingData } from '../../data/pricingData';
 import { PricingPackage } from '../../types';
 
