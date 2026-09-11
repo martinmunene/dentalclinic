@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Clock, ArrowRight } from 'lucide-react';
+import { Clock, ArrowRight } from 'lucide-react';
 import { blogData } from '../../data/blogData';
 import { BlogPost } from '../../types';
 

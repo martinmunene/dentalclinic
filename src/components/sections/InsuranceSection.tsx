@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
-import { Search, Shield, Phone, ArrowRight, CheckCircle } from 'lucide-react';
+import { Search, Shield, Phone, CheckCircle } from 'lucide-react';
 import { insuranceData } from '../../data/insuranceData';
 import { InsuranceProvider } from '../../types';
 
 interface InsuranceSectionProps {
   onOpenVerifier: () => void;
-  onOpenBooking: () => void;
+  onOpenBooking?: () => void;
 }
 
 export const InsuranceSection: React.FC<InsuranceSectionProps> = ({
   onOpenVerifier,
-  onOpenBooking,
 }) => {
   const [searchTerm, setSearchTerm] = useState<string>('');
 
