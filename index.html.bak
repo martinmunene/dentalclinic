@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deans Dental Clinic | Trusted Dental Care in Nairobi (Garden City & Runda)</title>
+  <meta name="description" content="Deans Dental Clinic in Nairobi offers expert painless dental care, braces, teeth whitening, implants, and pediatric dentistry at Garden City Mall and Runda Mall. Over 25 years of experience." />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Announcement / Contact Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-container">
+      <div class="top-bar-locations">
+        <span class="location-pill"><i class="icon-pin"></i> <strong>Garden City:</strong> 2nd Flr, Next to KCB Bank (Thika Rd)</span>
+        <span class="location-pill"><i class="icon-pin"></i> <strong>Runda:</strong> 2nd Flr, Runda Mall (Kiambu Rd)</span>
+      </div>
+      <div class="top-bar-contact">
+        <a href="mailto:info@deans.co.ke" class="contact-link"><i class="icon-mail"></i> info@deans.co.ke</a>
+        <a href="tel:+254703222228" class="contact-link emergency-highlight"><i class="icon-phone"></i> 24/7 Hotline: +254 703 222 228</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="navbar">
+    <div class="container header-container">
+      <a href="#home" class="brand-logo" aria-label="Deans Dental Home">
+        <img src="assets/images/logo.png" alt="Deans Dental Clinic Logo" class="logo-image" />
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#services" class="nav-link">Dental Services</a></li>
+          <li><a href="#transformation" class="nav-link">Smile Gallery</a></li>
+          <li><a href="#insurance" class="nav-link">Insurance</a></li>
+          <li><a href="#branches" class="nav-link">Clinics</a></li>
+          <li><a href="#faq" class="nav-link">FAQs</a></li>
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="pricing.html" class="nav-link">Pricing & Insurance</a></li>
+          <li><a href="branches.html" class="nav-link">Clinics</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <a href="tel:+254703222228" class="btn btn-outline btn-sm header-call-btn">
+          <i class="icon-phone"></i> Call Now
+        </a>
+        <button type="button" class="btn btn-primary btn-sm open-booking-btn" data-modal="bookingModal">
+          <i class="icon-calendar"></i> Book Appointment
+        </button>
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Off-Canvas Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <img src="assets/images/logo.png" alt="Deans Dental Clinic" class="mobile-logo" />
+      <button type="button" class="close-drawer" id="closeDrawer" aria-label="Close menu">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#home" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About Us</a></li>
+      <li><a href="#services" class="mobile-nav-link">Dental Services</a></li>
+      <li><a href="#transformation" class="mobile-nav-link">Smile Gallery</a></li>
+      <li><a href="#insurance" class="mobile-nav-link">Accepted Insurance</a></li>
+      <li><a href="#branches" class="mobile-nav-link">Our Clinics</a></li>
+      <li><a href="#faq" class="mobile-nav-link">FAQs</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact Us</a></li>
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+      <li><a href="services.html" class="mobile-nav-link">Dental Services</a></li>
+      <li><a href="pricing.html" class="mobile-nav-link">Pricing & Insurance</a></li>
+      <li><a href="branches.html" class="mobile-nav-link">Our Clinics</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+      <li><a href="booking.html" class="mobile-nav-link">Book Appointment</a></li>
+    </ul>
+    <div class="mobile-drawer-footer">
+      <p class="drawer-phone"><strong>24/7 Dental Helpline:</strong><br><a href="tel:+254703222228">+254 703 222 228</a></p>
+      <button type="button" class="btn btn-primary btn-block open-booking-btn" data-modal="bookingModal">
+        Book Appointment Online
+      </button>
+    </div>
+  </div>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Trusted Nairobi Dental Specialists • 25+ Years Legacy</span>
+          </div>
+          <h1 class="hero-title">
+            Bring Back Your Smile with <span class="gradient-text">Expert Care</span>
+          </h1>
+          <p class="hero-description">
+            Looking for a reliable, painless dental clinic in Nairobi? At <strong>Deans Dental Care</strong>, we specialize in advanced restorative, orthodontic braces, pediatric dentistry, and cosmetic smile makeovers. Visit our state-of-the-art clinics at <strong>Garden City Mall</strong> and <strong>Runda Mall</strong>.
+          </p>
+
+          <div class="hero-cta-group">
+            <button type="button" class="btn btn-primary btn-lg open-booking-btn" data-modal="bookingModal">
+              <i class="icon-calendar"></i> Book Your Appointment
+            </button>
+            <a href="#services" class="btn btn-light btn-lg">
+              <i class="icon-sparkles"></i> Explore Services
+            </a>
+          </div>
+
+          <!-- Hero Metrics & Trust Signals -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <div class="metric-number">25+</div>
+              <div class="metric-label">Years of Experience</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <div class="metric-number">20K+</div>
+              <div class="metric-label">Happy Confident Smiles</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <div class="metric-number">100%</div>
+              <div class="metric-label">KMPDC Licensed Care</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card-wrapper">
+            <img 
+              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=80" 
+              alt="Professional Dental Care at Deans Dental Clinic" 
+              class="hero-main-img" 
+            />
+            
+            <!-- Floating Trust Badge 1: 5.0 Star Reviews -->
+            <div class="floating-badge badge-reviews">
+              <div class="star-row">
+                ★★★★★
+              </div>
+              <div class="badge-text">
+                <strong>5.0 / 5.0 Rating</strong>
+                <span>From 650+ Nairobi Patients</span>
+              </div>
+            </div>
+
+            <!-- Floating Trust Badge 2: Pain-free guarantee -->
+            <div class="floating-badge badge-painfree">
+              <div class="badge-icon-wrap">
+                <i class="icon-heart-pulse"></i>
+              </div>
+              <div>
+                <strong>Painless & Gentle</strong>
+                <span>Advanced sedation & care</span>
+              </div>
+            </div>
+
+            <!-- Floating Trust Badge 3: Direct Insurance -->
+            <div class="floating-badge badge-insurance">
+              <i class="icon-shield-check"></i>
+              <span>Direct Insurance Billing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK HIGHLIGHTS / WORKING HOURS / EMERGENCY BANNER -->
+    <section class="quick-highlights-section">
+      <div class="container">
+        <div class="highlights-grid">
+          <!-- Card 1: Working Hours -->
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i class="icon-clock"></i>
+            </div>
+            <div class="highlight-content">
+              <h3>Working Hours</h3>
+              <p class="highlight-time"><strong>Mon – Sat:</strong> 8:00 AM – 8:00 PM</p>
+              <p class="highlight-time"><strong>Sunday:</strong> 10:00 AM – 4:00 PM</p>
+              <span class="badge-status open-now"><span class="indicator"></span> Open Today</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Book Appointment -->
+          <div class="highlight-card highlight-card-featured">
+            <div class="highlight-icon">
+              <i class="icon-calendar-check"></i>
+            </div>
+            <div class="highlight-content">
+              <h3>Fast Online Booking</h3>
+              <p>Choose your preferred date, branch (Garden City or Runda), and specialist in seconds.</p>
+              <button type="button" class="btn btn-white btn-sm open-booking-btn" data-modal="bookingModal">
+                Select Date & Time &rarr;
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 3: 24/7 Emergency Line -->
+          <div class="highlight-card">
+            <div class="highlight-icon emergency-icon">
+              <i class="icon-ambulance"></i>
+            </div>
+            <div class="highlight-content">
+              <h3>24/7 Emergency Dental Care</h3>
+              <p>Severe toothache, broken tooth, or dental trauma? Call our emergency dentists immediately.</p>
+              <a href="tel:+254703222228" class="emergency-phone-btn">
+                <i class="icon-phone"></i> +254 703 222 228
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-images">
+            <div class="img-composition">
+              <img 
+                src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" 
+                alt="Expert Dentist Examination" 
+                class="about-img-1" 
+              />
+              <img 
+                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80" 
+                alt="Modern Clinic Facilities at Garden City Mall" 
+                class="about-img-2" 
+              />
+              <div class="experience-card">
+                <span class="exp-num">25+</span>
+                <span class="exp-text">Years of Trusted Clinical Practice</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text-content">
+            <div class="section-tag">About Deans Dental Care</div>
+            <h2 class="section-title">
+              Trusted Family Dental Care Across <span class="highlight">Nairobi</span>
+            </h2>
+            <p class="lead-text">
+              With a legacy spanning over two decades and more than 20,000 radiant smiles restored, Deans Dental Care has earned the trust of families and professionals all across Nairobi.
+            </p>
+            <p>
+              Our KMPDC-licensed dental surgeons provide a full spectrum of world-class oral health services—from gentle pediatric care that keeps children smiling, to sophisticated orthodontic braces, dental implants, and emergency toothache relief.
+            </p>
+
+            <div class="features-checklist">
+              <div class="check-item">
+                <div class="check-icon"><i class="icon-check"></i></div>
+                <div>
+                  <strong>Modern Digital Technology</strong>
+                  <p>Low-radiation 3D imaging, digital intraoral scanning, and precision rotary equipment.</p>
+                </div>
+              </div>
+              <div class="check-item">
+                <div class="check-icon"><i class="icon-check"></i></div>
+                <div>
+                  <strong>Gentle-First & Anxiety-Free</strong>
+                  <p>Painless numbing, soothing environment, and compassionate dental specialists.</p>
+                </div>
+              </div>
+              <div class="check-item">
+                <div class="check-icon"><i class="icon-check"></i></div>
+                <div>
+                  <strong>Executive Priority Scheduling</strong>
+                  <p>Tailored appointments for busy professionals in CBD, Westlands, Upper Hill, and Thika Rd.</p>
+                </div>
+              </div>
+              <div class="check-item">
+                <div class="check-icon"><i class="icon-check"></i></div>
+                <div>
+                  <strong>Direct Insurance Claims</strong>
+                  <p>Accepted across major Kenyan providers with hassle-free electronic verification.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="neighborhoods-served">
+              <span class="neighborhoods-label">Serving Communities:</span>
+              <div class="neighborhood-tags">
+                <span class="tag">Garden Estate</span>
+                <span class="tag">Runda</span>
+                <span class="tag">Muthaiga</span>
+                <span class="tag">Westlands</span>
+                <span class="tag">Parklands</span>
+                <span class="tag">Ridgeways</span>
+                <span class="tag">Thome</span>
+                <span class="tag">Windsor</span>
+                <span class="tag">Mirema</span>
+                <span class="tag">Kasarani</span>
+                <span class="tag">Roasters / TRM</span>
+              </div>
+            </div>
+
+            <div class="about-action">
+              <button type="button" class="btn btn-primary open-booking-btn" data-modal="bookingModal">
+                Schedule a Consultation
+              </button>
+              <a href="tel:+254703222228" class="about-phone-link">
+                <i class="icon-phone"></i> +254 703 222 228
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services-section section-padding bg-alt" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">World-Class Oral Health</div>
+          <h2 class="section-title">Comprehensive Dental Services</h2>
+          <p class="section-subtitle">
+            From routine preventative checkups to full smile transformations, our certified specialists deliver unmatched precision and comfort.
+          </p>
+
+          <!-- Service Filter Tabs -->
+          <div class="service-tabs" role="tablist">
+            <button type="button" class="tab-btn active" data-filter="all">All Treatments</button>
+            <button type="button" class="tab-btn" data-filter="cosmetic">Cosmetic & Whitening</button>
+            <button type="button" class="tab-btn" data-filter="orthodontics">Braces & Aligners</button>
+            <button type="button" class="tab-btn" data-filter="restorative">Restorative & Implants</button>
+            <button type="button" class="tab-btn" data-filter="general">General & Kids</button>
+            <button type="button" class="tab-btn" data-filter="surgical">Surgical Care</button>
+          </div>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid" id="servicesGrid">
+          
+          <!-- Service 1: Teeth Whitening -->
+          <div class="service-card" data-category="cosmetic">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=600&q=80" alt="Professional Teeth Whitening Nairobi" class="service-img" />
+              <span class="service-tag cosmetic">Cosmetic</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-clock"></i> 45 - 60 mins</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> 100% Painless</span>
+              </div>
+              <h3 class="service-title">Professional Teeth Whitening</h3>
+              <p class="service-desc">
+                Revitalize your smile with advanced in-office laser whitening and custom take-home kits for dramatic, long-lasting brightness up to 8 shades lighter.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> In-Office Philips Zoom / Laser Treatment</li>
+                <li><i class="icon-check"></i> Customized Sensitivity-Free Formula</li>
+                <li><i class="icon-check"></i> Immediate visible results in 1 session</li>
+              </ul>
+              <div class="service-footer">
+                <button type="button" class="btn btn-outline btn-sm book-service-btn" data-service="Professional Teeth Whitening">
+                  Book Whitening &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2: Braces & Orthodontics -->
+          <div class="service-card" data-category="orthodontics">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=600&q=80" alt="Affordable Dental Braces Nairobi" class="service-img" />
+              <span class="service-tag ortho">Orthodontics</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-calendar"></i> Monthly Follow-ups</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Kids & Adults</span>
+              </div>
+              <h3 class="service-title">Affordable Braces & Clear Aligners</h3>
+              <p class="service-desc">
+                Achieve aligned, confident teeth with modern metal braces, aesthetic ceramic braces, or discreet clear aligners (Invisalign) tailored to your lifestyle.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Traditional, Ceramic & Self-Ligating Braces</li>
+                <li><i class="icon-check"></i> Invisible Clear Aligners (Invisalign)</li>
+                <li><i class="icon-check"></i> Flexible monthly installment plans</li>
+              </ul>
+              <div class="service-footer">
+                <button type="button" class="btn btn-outline btn-sm book-service-btn" data-service="Braces & Orthodontics">
+                  Book Consultation &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3: Dental Implants -->
+          <div class="service-card" data-category="restorative">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=80" alt="Dental Implants Nairobi" class="service-img" />
+              <span class="service-tag restorative">Restorative</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-shield"></i> Permanent Solution</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Natural Look & Feel</span>
+              </div>
+              <h3 class="service-title">Permanent Dental Implants</h3>
+              <p class="service-desc">
+                The gold standard for replacing missing teeth. Biocompatible titanium implants topped with custom porcelain crowns that look, chew, and feel just like natural teeth.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Single tooth, multi-tooth & full-arch</li>
+                <li><i class="icon-check"></i> 3D CT Guided surgical placement</li>
+                <li><i class="icon-check"></i> Prevents bone loss & facial sagging</li>
+              </ul>
+              <div class="service-footer">
+                <button type="button" class="btn btn-outline btn-sm book-service-btn" data-service="Dental Implants">
+                  Book Implant Consult &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 4: Routine Dental Cleaning -->
+          <div class="service-card" data-category="general">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80" alt="Routine Dental Cleaning Scaling Nairobi" class="service-img" />
+              <span class="service-tag general">General</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-clock"></i> 30 - 45 mins</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Gentle Ultrasonic</span>
+              </div>
+              <h3 class="service-title">Dental Cleaning & Polishing</h3>
+              <p class="service-desc">
+                Professional ultrasonic plaque, tartar, and coffee/tea stain removal followed by fluoride protection to protect gums and preserve pristine breath.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Ultrasonic scaling without scraping pain</li>
+                <li><i class="icon-check"></i> Comprehensive oral cancer screening</li>
+                <li><i class="icon-check"></i> Prevents gingivitis & periodontitis</li>
+              </ul>
+              <div class="service-footer">
+                <button type="button" class="btn btn-outline btn-sm book-service-btn" data-service="Dental Cleaning & Scaling">
+                  Book Cleaning &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 5: Painless Root Canal -->
+          <div class="service-card" data-category="restorative">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=600&q=80" alt="Root Canal Treatment Nairobi" class="service-img" />
+              <span class="service-tag restorative">Endodontics</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-clock"></i> 60 mins</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> 100% Painless Numbing</span>
+              </div>
+              <h3 class="service-title">Painless Root Canal Therapy</h3>
+              <p class="service-desc">
+                Save infected or severely aching teeth from extraction. Using computerized rotary instruments, we relieve throbbing pain quickly and preserve your natural tooth structure.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Immediate relief from tooth nerve pain</li>
+                <li><i class="icon-check"></i> Rotary endodontics for precision speed</li>
+                <li><i class="icon-check"></i> Reinforced with durable crown protection</li>
+              </ul>
+              <div class="service-footer">
+                <button type="button" class="btn btn-outline btn-sm book-service-btn" data-service="Root Canal Treatment">
+                  Relieve Tooth Pain &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 6: Pediatric Dental Care -->
+          <div class="service-card" data-category="general">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Pediatric Dentist Nairobi Garden City" class="service-img" />
+              <span class="service-tag general">Pediatric</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-heart"></i> Child Friendly</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Anxiety-Free</span>
+              </div>
+              <h3 class="service-title">Pediatric & Kids Dental Care</h3>
+              <p class="service-desc">
+                Building healthy dental habits early with our "gentle-first" approach. We make visits fun and fearless for toddlers, children, and teens with gentle sealants and exams.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Cavity prevention sealants & fluoride</li>
+                <li><i class="icon-check"></i> Friendly gentle pediatric specialists</li>
+                <li><i class="icon-check"></i> Habit correction (thumb sucking, tongue thrust)</li>
+              </ul>
+              <div class="service-footer">
+                <button type="button" class="btn btn-outline btn-sm book-service-btn" data-service="Pediatric Dental Care">
+                  Book for Kids &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 7: Porcelain Veneers & Crowns -->
+          <div class="service-card" data-category="cosmetic">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80" alt="Porcelain Veneers and Dental Crowns Nairobi" class="service-img" />
+              <span class="service-tag cosmetic">Cosmetic</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-sparkles"></i> Hollywood Smile</span>
+                <span class="meta-pill pain-free"><i class="icon-shield"></i> 10+ Year Durability</span>
+              </div>
+              <h3 class="service-title">Porcelain Veneers & Crowns</h3>
+              <p class="service-desc">
+                Custom-crafted ultrathin porcelain veneers and zirconia crowns to correct chipped, uneven, discolored, or spaced teeth for an immaculate celebrity smile.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Ultra-thin natural translucent porcelain</li>
+                <li><i class="icon-check"></i> Custom color match to facial tone</li>
+                <li><i class="icon-check"></i> Stain-resistant & permanent bonding</li>
+              </ul>
+              <div class="service-footer">
+                <button type="button" class="btn btn-outline btn-sm book-service-btn" data-service="Porcelain Veneers & Crowns">
+                  Design Your Smile &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 8: Wisdom Teeth & Oral Surgery -->
+          <div class="service-card" data-category="surgical">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80" alt="Wisdom Tooth Extraction Nairobi" class="service-img" />
+              <span class="service-tag surgical">Surgical</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-clock"></i> 30 - 60 mins</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Painless Anesthetic</span>
+              </div>
+              <h3 class="service-title">Wisdom Teeth & Tooth Extractions</h3>
+              <p class="service-desc">
+                Gentle, atraumatic removal of impacted wisdom teeth, crowding molars, or non-restorable roots with quick healing protocols and full pain management.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Digital panoramic X-ray mapping</li>
+                <li><i class="icon-check"></i> Atraumatic minimally invasive technique</li>
+                <li><i class="icon-check"></i> Rapid recovery & post-op checkups</li>
+              </ul>
+              <div class="service-footer">
+                <button type="button" class="btn btn-outline btn-sm book-service-btn" data-service="Wisdom Tooth Removal">
+                  Book Extraction &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE SMILE TRANSFORMATION (BEFORE & AFTER SLIDER) -->
+    <section class="transformation-section section-padding" id="transformation">
+      <div class="container">
+        <div class="transformation-box">
+          <div class="transformation-text">
+            <div class="section-tag">Smile Transformations</div>
+            <h2 class="section-title">See The Real Difference</h2>
+            <p>
+              Explore our real clinical smile makeovers. Whether straightening misaligned teeth with modern braces or brightening deep stains with in-office laser whitening, our results speak for themselves.
+            </p>
+
+            <div class="transformation-switches">
+              <button type="button" class="switch-btn active" data-scenario="whitening">
+                <i class="icon-sparkles"></i> Teeth Whitening
+              </button>
+              <button type="button" class="switch-btn" data-scenario="alignment">
+                <i class="icon-smile"></i> Braces Alignment
+              </button>
+            </div>
+
+            <div class="transformation-stats">
+              <div class="stat-pill">
+                <strong>Up to 8 Shades</strong>
+                <span>Whiter in 1 Visit</span>
+              </div>
+              <div class="stat-pill">
+                <strong>100%</strong>
+                <span>Natural Appearance</span>
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-primary open-booking-btn" data-modal="bookingModal">
+              Book Your Smile Makeover
+            </button>
+          </div>
+
+          <!-- Before / After Draggable Slider Component -->
+          <div class="transformation-visual">
+            <div class="ba-slider-container" id="baSlider">
+              <!-- After (full background) -->
+              <div class="ba-image-wrapper ba-after">
+                <img id="baAfterImg" src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80" alt="After Treatment Smile" />
+                <span class="ba-badge after-badge">AFTER</span>
+              </div>
+
+              <!-- Before (clipped overlay) -->
+              <div class="ba-image-wrapper ba-before" id="baBeforeWrap">
+                <img id="baBeforeImg" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" alt="Before Treatment Smile" />
+                <span class="ba-badge before-badge">BEFORE</span>
+              </div>
+
+              <!-- Draggable Handle Bar -->
+              <div class="ba-handle" id="baHandle">
+                <div class="handle-line"></div>
+                <div class="handle-button">
+                  <span>&#9664;&#9654;</span>
+                </div>
+              </div>
+            </div>
+            <p class="slider-instruction"><i class="icon-move"></i> Drag slider sideways to inspect before & after results</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCEPTED INSURANCE SECTION -->
+    <section class="insurance-section section-padding bg-alt" id="insurance">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Direct Billing & Coverage</div>
+          <h2 class="section-title">We Accept Major Health & Dental Insurances</h2>
+          <p class="section-subtitle">
+            At Deans Dental Clinic, we make high quality dental care affordable and accessible. We partner directly with leading Kenyan medical underwriters for direct, cashless billing.
+          </p>
+
+          <!-- Search Filter for Insurance Providers -->
+          <div class="insurance-search-wrap">
+            <i class="icon-search"></i>
+            <input type="text" id="insuranceSearch" placeholder="Type your insurance provider (e.g., Jubilee, AAR, Britam, KCB, Equity)..." />
+          </div>
+        </div>
+
+        <!-- Insurance Providers Grid -->
+        <div class="insurance-grid" id="insuranceGrid">
+          <div class="insurance-card" data-name="aar health insurance">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>AAR Insurance</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="jubilee insurance">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>Jubilee Insurance</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="cic group insurance">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>CIC Group</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="britam insurance">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>Britam</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="apa insurance">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>APA Insurance</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="ga insurance">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>GA Insurance</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="madison insurance">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>Madison Insurance</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="equity bank medical scheme">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>Equity Bank</h4>
+            <span class="coverage-status">Corporate Partner</span>
+          </div>
+
+          <div class="insurance-card" data-name="kcb bank staff scheme">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>KCB Bank</h4>
+            <span class="coverage-status">Corporate Partner</span>
+          </div>
+
+          <div class="insurance-card" data-name="co-operative bank medical scheme coop">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>Co-operative Bank</h4>
+            <span class="coverage-status">Corporate Partner</span>
+          </div>
+
+          <div class="insurance-card" data-name="liaison group">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>Liaison Group</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="fidelity insurance">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>Fidelity Insurance</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="sedgwick kenya">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>Sedgwick</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="pacific insurance brokers">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>Pacific Insurance</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="mua insurance kenya">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>MUA Insurance</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+
+          <div class="insurance-card" data-name="laser insurance brokers">
+            <div class="insurance-icon-box"><i class="icon-shield"></i></div>
+            <h4>Laser Insurance</h4>
+            <span class="coverage-status">Direct Direct Billing</span>
+          </div>
+        </div>
+
+        <div class="insurance-callout">
+          <div class="callout-inner">
+            <div class="callout-text">
+              <h3>Don’t see your insurance listed?</h3>
+              <p>We work with nearly all major Kenyan employer medical covers. Call us at <strong>+254 703 222 228</strong> to verify your specific dental benefits in under 3 minutes.</p>
+            </div>
+            <div class="callout-actions">
+              <button type="button" class="btn btn-primary" id="openInsuranceVerifier">
+                Check My Cover Online
+              </button>
+              <a href="tel:+254703222228" class="btn btn-outline">
+                <i class="icon-phone"></i> Call to Verify
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLINIC LOCATIONS (GARDEN CITY & RUNDA) -->
+    <section class="branches-section section-padding" id="branches">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Convenient Locations in Nairobi</div>
+          <h2 class="section-title">Visit Our State-of-the-Art Clinics</h2>
+          <p class="section-subtitle">
+            Two easily accessible clinics designed for maximum comfort, hygiene, and patient privacy along Thika Road and Kiambu Road.
+          </p>
+        </div>
+
+        <div class="branches-grid">
+          <!-- Branch 1: Garden City Mall -->
+          <div class="branch-card">
+            <div class="branch-header">
+              <div class="branch-pill">Main Flagship Branch</div>
+              <h3 class="branch-name">Garden City Mall Clinic</h3>
+              <p class="branch-locality"><i class="icon-pin"></i> Thika Road, Nairobi (Exit 7)</p>
+            </div>
+
+            <div class="branch-details">
+              <div class="detail-row">
+                <span class="detail-label"><i class="icon-map"></i> Exact Floor:</span>
+                <span class="detail-val">2nd Floor (Right Next to KCB Bank)</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label"><i class="icon-clock"></i> Hours:</span>
+                <span class="detail-val">Mon - Sat: 8am - 8pm | Sun: 10am - 4pm</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label"><i class="icon-car"></i> Parking:</span>
+                <span class="detail-val">Over 2,000 secure covered mall parking slots</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label"><i class="icon-phone"></i> Direct Call:</span>
+                <span class="detail-val"><a href="tel:+254703222228">+254 703 222 228</a></span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label"><i class="icon-navigation"></i> Proximity:</span>
+                <span class="detail-val">Ideal for Muthaiga, Ruaraka, Kasarani, TRM, Roasters & Thome</span>
+              </div>
+            </div>
+
+            <div class="branch-footer">
+              <button type="button" class="btn btn-primary btn-block open-booking-btn" data-branch="Garden City Mall">
+                Book at Garden City
+              </button>
+              <a href="https://maps.google.com/?q=Garden+City+Mall+Nairobi" target="_blank" rel="noopener" class="btn btn-light btn-block">
+                <i class="icon-compass"></i> Get Driving Directions
+              </a>
+            </div>
+          </div>
+
+          <!-- Branch 2: Runda Mall -->
+          <div class="branch-card">
+            <div class="branch-header">
+              <div class="branch-pill runda-pill">Executive Boutique Branch</div>
+              <h3 class="branch-name">Runda Mall Clinic</h3>
+              <p class="branch-locality"><i class="icon-pin"></i> Kiambu Road, Nairobi</p>
+            </div>
+
+            <div class="branch-details">
+              <div class="detail-row">
+                <span class="detail-label"><i class="icon-map"></i> Exact Floor:</span>
+                <span class="detail-val">2nd Floor, Runda Mall</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label"><i class="icon-clock"></i> Hours:</span>
+                <span class="detail-val">Mon - Sat: 8am - 8pm | Sun: 10am - 4pm</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label"><i class="icon-car"></i> Parking:</span>
+                <span class="detail-val">Dedicated executive mall visitor parking</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label"><i class="icon-phone"></i> Direct Call:</span>
+                <span class="detail-val"><a href="tel:+254703222227">+254 703 222 227</a></span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label"><i class="icon-navigation"></i> Proximity:</span>
+                <span class="detail-val">Ideal for Runda, Ridgeways, Windsor, Fourways & Kiambu Rd</span>
+              </div>
+            </div>
+
+            <div class="branch-footer">
+              <button type="button" class="btn btn-primary btn-block open-booking-btn" data-branch="Runda Mall">
+                Book at Runda Mall
+              </button>
+              <a href="https://maps.google.com/?q=Runda+Mall+Kiambu+Road+Nairobi" target="_blank" rel="noopener" class="btn btn-light btn-block">
+                <i class="icon-compass"></i> Get Driving Directions
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials-section section-padding bg-alt">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Patient Satisfaction</div>
+          <h2 class="section-title">What Nairobi Says About Deans Dental</h2>
+          <p class="section-subtitle">Read real reviews from patients treated across our Garden City and Runda clinics.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Review 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-quote">
+              "I had put off my wisdom tooth extraction for months due to dental phobia. Dr. and the team at Garden City made the entire procedure 100% painless! I was back to work next day. Unmatched bedside manner."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">WN</div>
+              <div>
+                <strong>Wanjiru N.</strong>
+                <span>Painless Tooth Extraction • Muthaiga</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-quote">
+              "Deans Dental transformed my smile with ceramic braces. Their monthly installment option made it very manageable, and the staff at Runda Mall are always so warm and punctual. Highly recommend!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">KO</div>
+              <div>
+                <strong>Kevin O.</strong>
+                <span>Adult Orthodontic Braces • Ridgeways</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-quote">
+              "Did teeth whitening before my wedding. The results exceeded my expectations—my teeth were 6 shades brighter with zero sensitivity afterwards. Direct billing through my Jubilee Insurance was totally seamless."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AM</div>
+              <div>
+                <strong>Amina M.</strong>
+                <span>Teeth Whitening & Cleaning • Westlands</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG & ORAL HEALTH RESOURCES -->
+    <section class="blog-section section-padding" id="blog">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Oral Health Knowledge</div>
+          <h2 class="section-title">Latest Dental Insights & Guides</h2>
+          <p class="section-subtitle">Expert advice from our Nairobi dental specialists on caring for your family’s teeth.</p>
+        </div>
+
+        <div class="blog-grid">
+          <!-- Article 1 -->
+          <article class="blog-card" onclick="openBlogModal(1)">
+            <div class="blog-img-wrap">
+              <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Pediatric Dental Care Nairobi" class="blog-img" />
+              <span class="blog-category">Pediatric Care</span>
+            </div>
+            <div class="blog-body">
+              <span class="blog-date">March 2026 • 4 min read</span>
+              <h3 class="blog-title">The Science of Smiles: Why Early Pediatric Dental Care is a Game-Changer</h3>
+              <p class="blog-excerpt">
+                As a parent in Nairobi, prioritizing your child's nutrition and schooling is second nature. Here is why early preventative dental checkups set them up for lifelong oral health...
+              </p>
+              <span class="blog-read-more">Read Full Guide &rarr;</span>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="blog-card" onclick="openBlogModal(2)">
+            <div class="blog-img-wrap">
+              <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=600&q=80" alt="Best Dental Clinic Nairobi" class="blog-img" />
+              <span class="blog-category">Family Dentistry</span>
+            </div>
+            <div class="blog-body">
+              <span class="blog-date">February 2026 • 5 min read</span>
+              <h3 class="blog-title">How to Choose the Best Dental Clinic in Nairobi for Your Family</h3>
+              <p class="blog-excerpt">
+                Choosing a dental office in a busy city like Nairobi can be overwhelming. Key factors to evaluate: KMPDC accreditation, sterilization protocols, modern equipment, and insurance convenience.
+              </p>
+              <span class="blog-read-more">Read Full Guide &rarr;</span>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="blog-card" onclick="openBlogModal(3)">
+            <div class="blog-img-wrap">
+              <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=600&q=80" alt="Dental Hygiene Nairobi" class="blog-img" />
+              <span class="blog-category">Hygiene & Whitening</span>
+            </div>
+            <div class="blog-body">
+              <span class="blog-date">January 2026 • 3 min read</span>
+              <h3 class="blog-title">Beyond the Brush: The Professional Science of Dental Hygiene</h3>
+              <p class="blog-excerpt">
+                Everyone dreams of a brilliant smile, but brushing alone misses up to 40% of plaque. Learn why 6-month ultrasonic scaling is the truest foundation for radiant white teeth.
+              </p>
+              <span class="blog-read-more">Read Full Guide &rarr;</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section section-padding bg-alt" id="faq">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Got Questions?</div>
+          <h2 class="section-title">Frequently Asked Dental Questions</h2>
+          <p class="section-subtitle">Clear answers to help you feel completely comfortable before your visit.</p>
+        </div>
+
+        <div class="faq-accordion-wrap">
+          <!-- FAQ 1 -->
+          <div class="faq-item active">
+            <button type="button" class="faq-question">
+              <span>Will my dental treatment hurt?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Not at all. At Deans Dental Care, we pride ourselves on modern gentle dentistry. We use top-tier topical numbing gels, localized computerized anesthetics, and gentle techniques so procedures like root canals, extractions, and deep cleanings are completely painless and stress-free.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>How do I use my health insurance at Deans Dental?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Simply bring your medical insurance card and national ID to your appointment. Our administrative team will verify your dental balance with your insurer (AAR, Jubilee, Britam, CIC, APA, GA, Equity, KCB, Madison, etc.) electronically, allowing direct cashless billing on covered procedures.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>What is the difference between metal braces and clear aligners?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Metal braces are fixed orthodontic brackets bonded to teeth, ideal for complex alignments and budget-friendly treatments. Clear aligners (Invisalign) are custom, removable transparent trays that straighten teeth discreetly without visible metal. Both deliver outstanding functional and aesthetic alignment.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>How long does in-office teeth whitening last?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Professional laser whitening results typically last 1 to 3 years, depending on your dietary habits (coffee, tea, red wine, smoking). We also supply maintenance touch-up pens and customized take-home trays to keep your teeth bright indefinitely.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>What should I do in a sudden dental emergency?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                If you suffer acute tooth pain, trauma, or a knocked-out tooth, call our 24/7 Emergency Line immediately at <strong>+254 703 222 228</strong>. For a knocked-out permanent tooth, place it in cold fresh milk or inside your cheek without touching the root, and reach our clinic right away—timing within 60 minutes is critical to save the tooth.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="cta-banner-section" id="contact">
+      <div class="container">
+        <div class="cta-banner-inner">
+          <div class="cta-content">
+            <span class="cta-eyebrow">Ready for a Healthier, More Confident Smile?</span>
+            <h2 class="cta-heading">Book Your Consultation Today with Nairobi’s Top Dentists</h2>
+            <p class="cta-desc">
+              Experience gold-standard dental care with zero waiting times, direct insurance billing, and 100% painless treatments at Garden City Mall and Runda Mall.
+            </p>
+            <div class="cta-buttons">
+              <button type="button" class="btn btn-primary btn-lg open-booking-btn" data-modal="bookingModal">
+                <i class="icon-calendar"></i> Book Appointment Now
+              </button>
+              <a href="https://wa.me/254703222228?text=Hello%20Deans%20Dental,%20I%20would%20like%20to%20inquire%20about%20dental%20services" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+                <i class="icon-whatsapp"></i> Chat on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="cta-direct-phone">
+            <div class="phone-callout-card">
+              <i class="icon-phone-large"></i>
+              <span>Call Direct 24/7</span>
+              <strong>+254 703 222 228</strong>
+              <small>+254 703 222 227</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="footer-col footer-brand-col">
+          <img src="assets/images/logo.png" alt="Deans Dental Clinic" class="footer-logo" />
+          <p class="footer-bio">
+            Deans Dental Care is Nairobi’s premier dental center, delivering compassionate, world-class dental treatments across Garden City Mall and Runda Mall. Over 25 years of restoring happy, healthy smiles.
+          </p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/deansdentalimplants/" target="_blank" rel="noopener" aria-label="Facebook"><i class="icon-facebook"></i></a>
+            <a href="https://www.instagram.com/deansdentalbraces/" target="_blank" rel="noopener" aria-label="Instagram"><i class="icon-instagram"></i></a>
+            <a href="https://www.tiktok.com/@deansbraces" target="_blank" rel="noopener" aria-label="TikTok"><i class="icon-tiktok"></i></a>
+            <a href="https://x.com/deansdentalke" target="_blank" rel="noopener" aria-label="Twitter"><i class="icon-twitter"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Services Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Professional Teeth Whitening</a></li>
+            <li><a href="#services">Dental Braces & Aligners</a></li>
+            <li><a href="#services">Permanent Dental Implants</a></li>
+            <li><a href="#services">Routine Dental Cleaning</a></li>
+            <li><a href="#services">Painless Root Canal Therapy</a></li>
+            <li><a href="#services">Pediatric Dentistry for Kids</a></li>
+            <li><a href="#services">Porcelain Veneers & Crowns</a></li>
+            <li><a href="#services">Wisdom Teeth Extractions</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Branches & Locations -->
+        <div class="footer-col">
+          <h4 class="footer-title">Our Nairobi Clinics</h4>
+          <div class="footer-branch-item">
+            <strong>Garden City Mall Clinic:</strong>
+            <p>2nd Floor (Next to KCB Bank), Thika Road, Nairobi</p>
+            <p><a href="tel:+254703222228">+254 703 222 228</a></p>
+          </div>
+          <div class="footer-branch-item">
+            <strong>Runda Mall Clinic:</strong>
+            <p>2nd Floor, Kiambu Road, Nairobi</p>
+            <p><a href="tel:+254703222227">+254 703 222 227</a></p>
+          </div>
+          <div class="footer-branch-item">
+            <strong>Email:</strong>
+            <p><a href="mailto:info@deans.co.ke">info@deans.co.ke</a></p>
+          </div>
+        </div>
+
+        <!-- Col 4: Hours & Emergency -->
+        <div class="footer-col">
+          <h4 class="footer-title">Working Hours</h4>
+          <p class="hours-row"><span>Mon – Sat:</span> <strong>8:00 AM – 8:00 PM</strong></p>
+          <p class="hours-row"><span>Sunday:</span> <strong>10:00 AM – 4:00 PM</strong></p>
+          <p class="hours-row"><span>Public Holidays:</span> <strong>Open by Appointment</strong></p>
+          <div class="footer-emergency-badge">
+            <span class="badge-dot"></span>
+            <div>
+              <strong>Emergency Dental Care</strong>
+              <p>24/7 Hotline: +254 703 222 228</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Deans Dental Clinic. All Rights Reserved. KMPDC Licensed Dental Practice.</p>
+        <div class="footer-legal-links">
+          <a href="#">Privacy Policy</a>
+          <span>•</span>
+          <a href="#">Terms & Conditions</a>
+          <span>•</span>
+          <a href="#">Patient Rights</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING ACTION BUTTONS -->
+  <div class="floating-actions">
+    <a href="https://wa.me/254703222228?text=Hello%20Deans%20Dental,%20I%20would%20like%20to%20inquire%20about%20dental%20services" target="_blank" rel="noopener" class="float-btn float-whatsapp" aria-label="Chat on WhatsApp">
+      <i class="icon-whatsapp"></i>
+      <span class="float-tooltip">Chat with us</span>
+    </a>
+    <a href="tel:+254703222228" class="float-btn float-phone" aria-label="Call Emergency Dentist">
+      <i class="icon-phone"></i>
+      <span class="float-tooltip">24/7 Emergency Line</span>
+    </a>
+  </div>
+
+  <!-- INTERACTIVE APPOINTMENT BOOKING MODAL -->
+  <div class="modal-backdrop" id="bookingModal">
+    <div class="modal-dialog booking-modal-dialog">
+      <div class="modal-header">
+        <div class="modal-header-text">
+          <h3 class="modal-title">Book an Appointment</h3>
+          <p class="modal-subtitle">Deans Dental Clinic • Quick & Easy Scheduling</p>
+        </div>
+        <button type="button" class="modal-close" id="closeBookingModal">&times;</button>
+      </div>
+
+      <!-- Booking Wizard Steps Indicator -->
+      <div class="wizard-steps">
+        <div class="step-badge active" id="stepIndicator1"><span>1</span> Clinic & Service</div>
+        <div class="step-badge" id="stepIndicator2"><span>2</span> Date & Time</div>
+        <div class="step-badge" id="stepIndicator3"><span>3</span> Patient Details</div>
+        <div class="step-badge" id="stepIndicator4"><span>4</span> Confirmation</div>
+      </div>
+
+      <div class="modal-body">
+        <form id="bookingForm" novalidate>
+          
+          <!-- STEP 1: Branch & Service -->
+          <div class="wizard-step active" id="wizardStep1">
+            <h4 class="step-heading">1. Select Preferred Clinic & Service</h4>
+            
+            <label class="form-label">Choose Clinic Location:</label>
+            <div class="branch-selector-grid">
+              <label class="branch-option">
+                <input type="radio" name="bookingBranch" value="Garden City Mall" checked />
+                <div class="branch-option-card">
+                  <strong>Garden City Mall</strong>
+                  <span>2nd Floor, Next to KCB, Thika Road</span>
+                </div>
+              </label>
+              <label class="branch-option">
+                <input type="radio" name="bookingBranch" value="Runda Mall" />
+                <div class="branch-option-card">
+                  <strong>Runda Mall</strong>
+                  <span>2nd Floor, Kiambu Road</span>
+                </div>
+              </label>
+            </div>
+
+            <div class="form-group mt-4">
+              <label for="bookingService" class="form-label">Dental Service Required:</label>
+              <select id="bookingService" class="form-select" required>
+                <option value="" disabled selected>Select a treatment...</option>
+                <optgroup label="Cosmetic Dentistry">
+                  <option value="Professional Teeth Whitening">Professional Teeth Whitening</option>
+                  <option value="Porcelain Veneers & Smile Design">Porcelain Veneers & Smile Design</option>
+                  <option value="Dental Bonding">Dental Bonding & Aesthetic Fillings</option>
+                </optgroup>
+                <optgroup label="Orthodontics">
+                  <option value="Affordable Metal Braces">Affordable Metal Braces</option>
+                  <option value="Ceramic Tooth-Colored Braces">Ceramic Tooth-Colored Braces</option>
+                  <option value="Clear Aligners (Invisalign)">Clear Aligners (Invisalign)</option>
+                </optgroup>
+                <optgroup label="General & Preventative">
+                  <option value="Routine Dental Cleaning & Checkup">Routine Dental Cleaning & Checkup</option>
+                  <option value="Pediatric Kids Dentistry">Pediatric / Kids Dentistry</option>
+                  <option value="Toothache Diagnosis & Treatment">Toothache Diagnosis & Treatment</option>
+                </optgroup>
+                <optgroup label="Restorative & Surgery">
+                  <option value="Permanent Dental Implants">Permanent Dental Implants</option>
+                  <option value="Painless Root Canal Therapy">Painless Root Canal Therapy</option>
+                  <option value="Wisdom Tooth Extraction">Wisdom Tooth Extraction</option>
+                  <option value="Crowns & Bridges">Dental Crowns & Bridges</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <div class="wizard-actions">
+              <div></div>
+              <button type="button" class="btn btn-primary next-step-btn" data-next="2">Next: Date & Time &rarr;</button>
+            </div>
+          </div>
+
+          <!-- STEP 2: Date & Time Slot -->
+          <div class="wizard-step" id="wizardStep2">
+            <h4 class="step-heading">2. Choose Appointment Date & Time</h4>
+            
+            <div class="form-group">
+              <label for="bookingDate" class="form-label">Select Preferred Date:</label>
+              <input type="date" id="bookingDate" class="form-input" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Available Time Slots:</label>
+              <div class="time-slots-grid" id="timeSlotsContainer">
+                <!-- Dynamically generated time slot buttons -->
+                <button type="button" class="time-slot-btn" data-time="09:00 AM">09:00 AM</button>
+                <button type="button" class="time-slot-btn" data-time="10:00 AM">10:00 AM</button>
+                <button type="button" class="time-slot-btn" data-time="11:30 AM">11:30 AM</button>
+                <button type="button" class="time-slot-btn" data-time="02:00 PM">02:00 PM</button>
+                <button type="button" class="time-slot-btn" data-time="03:30 PM">03:30 PM</button>
+                <button type="button" class="time-slot-btn" data-time="05:00 PM">05:00 PM</button>
+                <button type="button" class="time-slot-btn" data-time="06:30 PM">06:30 PM</button>
+              </div>
+              <input type="hidden" id="selectedTimeSlot" value="" required />
+            </div>
+
+            <div class="wizard-actions">
+              <button type="button" class="btn btn-light prev-step-btn" data-prev="1">&larr; Back</button>
+              <button type="button" class="btn btn-primary next-step-btn" data-next="3">Next: Patient Info &rarr;</button>
+            </div>
+          </div>
+
+          <!-- STEP 3: Patient Information & Insurance -->
+          <div class="wizard-step" id="wizardStep3">
+            <h4 class="step-heading">3. Patient Information</h4>
+
+            <div class="form-row">
+              <div class="form-group col-half">
+                <label for="patientName" class="form-label">Full Name *</label>
+                <input type="text" id="patientName" class="form-input" placeholder="e.g. Grace Njeri" required />
+              </div>
+              <div class="form-group col-half">
+                <label for="patientPhone" class="form-label">Phone Number *</label>
+                <input type="tel" id="patientPhone" class="form-input" placeholder="e.g. 0712 345 678" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-half">
+                <label for="patientEmail" class="form-label">Email Address *</label>
+                <input type="email" id="patientEmail" class="form-input" placeholder="e.g. grace@example.com" required />
+              </div>
+              <div class="form-group col-half">
+                <label for="patientPayment" class="form-label">Payment Method / Insurance</label>
+                <select id="patientPayment" class="form-select">
+                  <option value="Self Pay / M-Pesa / Card">Self Pay / M-Pesa / Card</option>
+                  <option value="AAR Insurance">AAR Insurance</option>
+                  <option value="Jubilee Insurance">Jubilee Insurance</option>
+                  <option value="CIC Group">CIC Group</option>
+                  <option value="Britam">Britam</option>
+                  <option value="APA Insurance">APA Insurance</option>
+                  <option value="GA Insurance">GA Insurance</option>
+                  <option value="Equity Bank Scheme">Equity Bank Scheme</option>
+                  <option value="KCB Bank Scheme">KCB Bank Scheme</option>
+                  <option value="Co-op Bank Scheme">Co-op Bank Scheme</option>
+                  <option value="Madison Insurance">Madison Insurance</option>
+                  <option value="Other Insurance">Other Corporate Cover</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="patientNotes" class="form-label">Special Notes or Dental Concerns (Optional):</label>
+              <textarea id="patientNotes" class="form-textarea" rows="2" placeholder="e.g., Sensitive gums, emergency pain, first-time dental checkup..."></textarea>
+            </div>
+
+            <div class="wizard-actions">
+              <button type="button" class="btn btn-light prev-step-btn" data-prev="2">&larr; Back</button>
+              <button type="submit" class="btn btn-primary" id="submitBookingBtn">
+                <i class="icon-check"></i> Confirm Appointment
+              </button>
+            </div>
+          </div>
+
+          <!-- STEP 4: Confirmation State -->
+          <div class="wizard-step" id="wizardStep4">
+            <div class="confirmation-success">
+              <div class="success-icon-wrap">
+                <i class="icon-check-big"></i>
+              </div>
+              <h3 class="success-title">Appointment Request Submitted!</h3>
+              <p class="success-desc">
+                Thank you for choosing Deans Dental Care. Your appointment request has been logged, and our front desk will verify your slot shortly via SMS/WhatsApp.
+              </p>
+
+              <div class="booking-summary-card" id="bookingSummaryCard">
+                <!-- Injected via JavaScript -->
+              </div>
+
+              <div class="confirmation-actions">
+                <a id="whatsappConfirmLink" href="#" target="_blank" rel="noopener" class="btn btn-whatsapp btn-block">
+                  <i class="icon-whatsapp"></i> Send Instant Confirmation on WhatsApp
+                </a>
+                <button type="button" class="btn btn-light btn-block" id="finishBookingBtn">Done / Close</button>
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- INSURANCE VERIFIER MODAL -->
+  <div class="modal-backdrop" id="insuranceModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-header-text">
+          <h3 class="modal-title">Insurance Coverage Verifier</h3>
+          <p class="modal-subtitle">Check your dental benefits at Deans Dental Clinic</p>
+        </div>
+        <button type="button" class="modal-close" id="closeInsuranceModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="insuranceForm">
+          <div class="form-group">
+            <label class="form-label">Select Your Insurance Provider:</label>
+            <select class="form-select" id="insProviderSelect" required>
+              <option value="" disabled selected>Choose insurance...</option>
+              <option value="AAR Insurance">AAR Insurance (Comprehensive Direct Billing)</option>
+              <option value="Jubilee Insurance">Jubilee Insurance (Direct Direct Billing)</option>
+              <option value="Britam">Britam (Comprehensive In & Outpatient)</option>
+              <option value="CIC Group">CIC Group (Direct Direct Billing)</option>
+              <option value="APA Insurance">APA Insurance (Direct Direct Billing)</option>
+              <option value="GA Insurance">GA Insurance (Direct Direct Billing)</option>
+              <option value="Equity Bank Scheme">Equity Bank Staff & Dependents</option>
+              <option value="KCB Bank Scheme">KCB Bank Corporate Cover</option>
+              <option value="Co-operative Bank">Co-operative Bank Scheme</option>
+              <option value="Madison Insurance">Madison Insurance</option>
+              <option value="Sedgwick Kenya">Sedgwick Kenya</option>
+              <option value="Fidelity / MUA / Laser">Fidelity / MUA / Laser / Liaison</option>
+              <option value="Other Provider">Other Corporate Provider</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Your Full Name:</label>
+            <input type="text" class="form-input" id="insName" placeholder="e.g. John Kamau" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Mobile Number:</label>
+            <input type="tel" class="form-input" id="insPhone" placeholder="0700 000 000" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Member / Policy Number (Optional):</label>
+            <input type="text" class="form-input" id="insMemberNo" placeholder="e.g. POL-893214" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Preferred Branch:</label>
+            <select class="form-select" id="insBranch">
+              <option value="Garden City Mall">Garden City Mall (Thika Road)</option>
+              <option value="Runda Mall">Runda Mall (Kiambu Road)</option>
+            </select>
+          </div>
+
+          <div class="modal-actions">
+            <button type="submit" class="btn btn-primary btn-block">Verify Coverage Now</button>
+          </div>
+          <div id="insResultMsg" class="mt-3 text-center"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARTICLE MODAL -->
+  <div class="modal-backdrop" id="articleModal">
+    <div class="modal-dialog article-modal-dialog">
+      <div class="modal-header">
+        <div class="modal-header-text">
+          <span class="badge-pill" id="articleCategory">Article</span>
+          <h3 class="modal-title mt-1" id="articleTitle">Article Title</h3>
+        </div>
+        <button type="button" class="modal-close" id="closeArticleModal">&times;</button>
+      </div>
+      <div class="modal-body" id="articleBody">
+        <!-- Injected via JavaScript -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary open-booking-btn" data-modal="bookingModal">Book Consultation</button>
+        <button type="button" class="btn btn-light" id="closeArticleBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book an Appointment | Deans Dental Clinic Nairobi</title>
+  <meta name="description" content="Book a dental appointment online at Deans Dental Clinic (Garden City Mall or Runda Mall). Select your dentist, service, and convenient time slot." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-container">
+      <div class="top-bar-locations">
+        <span class="location-pill"><i class="icon-pin"></i> <strong>Garden City:</strong> 2nd Flr, Next to KCB (Thika Rd)</span>
+        <span class="location-pill"><i class="icon-pin"></i> <strong>Runda:</strong> 2nd Flr, Runda Mall (Kiambu Rd)</span>
+      </div>
+      <div class="top-bar-contact">
+        <a href="mailto:info@deans.co.ke" class="contact-link"><i class="icon-mail"></i> info@deans.co.ke</a>
+        <a href="tel:+254703222228" class="contact-link emergency-highlight"><i class="icon-phone"></i> 24/7 Hotline: +254 703 222 228</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="navbar">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo.png" alt="Deans Dental Clinic" class="logo-image" />
+      </a>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="pricing.html" class="nav-link">Pricing & Insurance</a></li>
+          <li><a href="branches.html" class="nav-link">Clinics</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+254703222228" class="btn btn-outline btn-sm header-call-btn"><i class="icon-phone"></i> Call Now</a>
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <img src="assets/images/logo.png" alt="Deans Dental" class="mobile-logo" />
+      <button type="button" class="close-drawer" id="closeDrawer">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+      <li><a href="services.html" class="mobile-nav-link">Dental Services</a></li>
+      <li><a href="pricing.html" class="mobile-nav-link">Pricing & Insurance</a></li>
+      <li><a href="branches.html" class="mobile-nav-link">Our Clinics</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+    </ul>
+    <div class="mobile-drawer-footer">
+      <a href="tel:+254703222228" class="btn btn-primary btn-block">24/7 Hotline: +254 703 222 228</a>
+    </div>
+  </div>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <main>
+    <!-- PAGE HERO BANNER -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="page-hero-tag">Fast Online Scheduling</span>
+        <h1 class="page-hero-title">Book Your Dental Visit</h1>
+        <p class="page-hero-desc">
+          Select your preferred clinic (Garden City Mall or Runda Mall), choose your specialist procedure, and pick a time slot.
+        </p>
+        <div class="breadcrumb-nav">
+          <a href="index.html">Home</a> &gt; <span>Online Appointment</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING WIZARD PORTAL -->
+    <section class="section-padding">
+      <div class="container" style="max-width: 820px;">
+        <div class="contact-form-box" style="padding: 3rem 2.5rem;">
+          
+          <!-- Wizard Steps Indicator -->
+          <div class="wizard-steps" style="margin: -1.5rem -2.5rem 2rem; border-radius: 20px 20px 0 0;">
+            <div class="step-badge active" id="stepIndicator1"><span>1</span> Clinic & Service</div>
+            <div class="step-badge" id="stepIndicator2"><span>2</span> Date & Time</div>
+            <div class="step-badge" id="stepIndicator3"><span>3</span> Patient Details</div>
+            <div class="step-badge" id="stepIndicator4"><span>4</span> Confirmation</div>
+          </div>
+
+          <form id="bookingForm" novalidate>
+            <!-- STEP 1: Clinic & Service -->
+            <div class="wizard-step active" id="wizardStep1">
+              <h3 class="step-heading">1. Select Preferred Clinic & Dental Procedure</h3>
+              
+              <label class="form-label">Select Clinic Location:</label>
+              <div class="branch-selector-grid">
+                <label class="branch-option">
+                  <input type="radio" name="bookingBranch" value="Garden City Mall" checked />
+                  <div class="branch-option-card">
+                    <strong>Garden City Mall</strong>
+                    <span>2nd Floor, Next to KCB Bank, Thika Road</span>
+                  </div>
+                </label>
+                <label class="branch-option">
+                  <input type="radio" name="bookingBranch" value="Runda Mall" />
+                  <div class="branch-option-card">
+                    <strong>Runda Mall</strong>
+                    <span>2nd Floor, Kiambu Road</span>
+                  </div>
+                </label>
+              </div>
+
+              <div class="form-group mt-4">
+                <label for="bookingService" class="form-label">Choose Dental Treatment *</label>
+                <select id="bookingService" class="form-select" required>
+                  <option value="" disabled selected>Select a treatment...</option>
+                  <optgroup label="Cosmetic Dentistry">
+                    <option value="Professional Teeth Whitening">Professional Teeth Whitening</option>
+                    <option value="Porcelain Veneers & Smile Design">Porcelain Veneers & Smile Design</option>
+                    <option value="Dental Bonding">Composite Aesthetic Bonding</option>
+                  </optgroup>
+                  <optgroup label="Orthodontics">
+                    <option value="Affordable Metal Braces">Affordable Metal Braces</option>
+                    <option value="Ceramic Tooth-Colored Braces">Ceramic Tooth-Colored Braces</option>
+                    <option value="Clear Aligners (Invisalign)">Clear Aligners (Invisalign)</option>
+                  </optgroup>
+                  <optgroup label="General & Preventative">
+                    <option value="Routine Dental Cleaning & Checkup">Routine Dental Cleaning & Checkup</option>
+                    <option value="Pediatric Kids Dentistry">Pediatric / Kids Dentistry</option>
+                    <option value="Toothache Diagnosis & Treatment">Toothache Diagnosis & Relief</option>
+                  </optgroup>
+                  <optgroup label="Restorative & Surgery">
+                    <option value="Permanent Dental Implants">Permanent Dental Implants</option>
+                    <option value="Painless Root Canal Therapy">Painless Root Canal Therapy</option>
+                    <option value="Wisdom Tooth Extraction">Wisdom Tooth Extraction</option>
+                    <option value="Crowns & Bridges">Dental Crowns & Bridges</option>
+                  </optgroup>
+                </select>
+              </div>
+
+              <div class="wizard-actions">
+                <div></div>
+                <button type="button" class="btn btn-primary next-step-btn" data-next="2">
+                  Next: Date & Time &rarr;
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 2: Date & Time -->
+            <div class="wizard-step" id="wizardStep2">
+              <h3 class="step-heading">2. Choose Your Date & Time Slot</h3>
+              
+              <div class="form-group">
+                <label for="bookingDate" class="form-label">Preferred Date *</label>
+                <input type="date" id="bookingDate" class="form-input" required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Select Available Time Slot *</label>
+                <div class="time-slots-grid" id="timeSlotsContainer">
+                  <button type="button" class="time-slot-btn" data-time="09:00 AM">09:00 AM</button>
+                  <button type="button" class="time-slot-btn" data-time="10:00 AM">10:00 AM</button>
+                  <button type="button" class="time-slot-btn" data-time="11:30 AM">11:30 AM</button>
+                  <button type="button" class="time-slot-btn" data-time="02:00 PM">02:00 PM</button>
+                  <button type="button" class="time-slot-btn" data-time="03:30 PM">03:30 PM</button>
+                  <button type="button" class="time-slot-btn" data-time="05:00 PM">05:00 PM</button>
+                  <button type="button" class="time-slot-btn" data-time="06:30 PM">06:30 PM</button>
+                </div>
+                <input type="hidden" id="selectedTimeSlot" value="" required />
+              </div>
+
+              <div class="wizard-actions">
+                <button type="button" class="btn btn-light prev-step-btn" data-prev="1">&larr; Back</button>
+                <button type="button" class="btn btn-primary next-step-btn" data-next="3">
+                  Next: Patient Info &rarr;
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 3: Patient Details -->
+            <div class="wizard-step" id="wizardStep3">
+              <h3 class="step-heading">3. Patient & Insurance Details</h3>
+
+              <div class="form-row">
+                <div class="form-group col-half">
+                  <label for="patientName" class="form-label">Full Name *</label>
+                  <input type="text" id="patientName" class="form-input" placeholder="e.g. Grace Njeri" required />
+                </div>
+                <div class="form-group col-half">
+                  <label for="patientPhone" class="form-label">Mobile Number (SMS/WhatsApp) *</label>
+                  <input type="tel" id="patientPhone" class="form-input" placeholder="e.g. 0712 345 678" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-half">
+                  <label for="patientEmail" class="form-label">Email Address *</label>
+                  <input type="email" id="patientEmail" class="form-input" placeholder="e.g. grace@example.com" required />
+                </div>
+                <div class="form-group col-half">
+                  <label for="patientPayment" class="form-label">Payment / Insurance Method</label>
+                  <select id="patientPayment" class="form-select">
+                    <option value="Self Pay / M-Pesa / Card">Self Pay (M-Pesa / Card / Cash)</option>
+                    <option value="AAR Insurance">AAR Insurance</option>
+                    <option value="Jubilee Insurance">Jubilee Insurance</option>
+                    <option value="CIC Group">CIC Group</option>
+                    <option value="Britam">Britam</option>
+                    <option value="APA Insurance">APA Insurance</option>
+                    <option value="GA Insurance">GA Insurance</option>
+                    <option value="Equity Bank Scheme">Equity Bank Medical Scheme</option>
+                    <option value="KCB Bank Scheme">KCB Bank Medical Scheme</option>
+                    <option value="Co-operative Bank">Co-operative Bank Scheme</option>
+                    <option value="Madison Insurance">Madison Insurance</option>
+                    <option value="Other Corporate Scheme">Other Corporate Scheme</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="patientNotes" class="form-label">Special Concerns or Prior Dental History (Optional):</label>
+                <textarea id="patientNotes" class="form-textarea" rows="2" placeholder="e.g. Tooth sensitivity, nervous patient, emergency pain..."></textarea>
+              </div>
+
+              <div class="wizard-actions">
+                <button type="button" class="btn btn-light prev-step-btn" data-prev="2">&larr; Back</button>
+                <button type="submit" class="btn btn-primary" id="submitBookingBtn">
+                  <i class="icon-check"></i> Complete Booking
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 4: Confirmation -->
+            <div class="wizard-step" id="wizardStep4">
+              <div class="confirmation-success">
+                <div class="success-icon-wrap">
+                  <i class="icon-check-big"></i>
+                </div>
+                <h3 class="success-title">Appointment Confirmed!</h3>
+                <p class="success-desc">
+                  Your appointment request has been received. Our reception team will reach out to confirm arrival instructions and parking details.
+                </p>
+
+                <div class="booking-summary-card" id="bookingSummaryCard">
+                  <!-- Summary generated via JS -->
+                </div>
+
+                <div class="confirmation-actions">
+                  <a id="whatsappConfirmLink" href="#" target="_blank" rel="noopener" class="btn btn-whatsapp btn-block">
+                    <i class="icon-whatsapp"></i> Send Instant Confirmation via WhatsApp
+                  </a>
+                  <a href="index.html" class="btn btn-light btn-block">Return to Homepage</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand-col">
+          <img src="assets/images/logo.png" alt="Deans Dental Clinic" class="footer-logo" />
+          <p class="footer-bio">
+            Deans Dental Care is Nairobi’s premier dental center, delivering compassionate, world-class dental treatments across Garden City Mall and Runda Mall. Over 25 years of restoring happy, healthy smiles.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Dental Services</a></li>
+            <li><a href="pricing.html">Pricing & Insurance</a></li>
+            <li><a href="branches.html">Clinics & Locations</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Our Clinics</h4>
+          <div class="footer-branch-item">
+            <strong>Garden City Mall Clinic:</strong>
+            <p>2nd Floor (Next to KCB Bank), Thika Road, Nairobi</p>
+            <p><a href="tel:+254703222228">+254 703 222 228</a></p>
+          </div>
+          <div class="footer-branch-item">
+            <strong>Runda Mall Clinic:</strong>
+            <p>2nd Floor, Kiambu Road, Nairobi</p>
+            <p><a href="tel:+254703222227">+254 703 222 227</a></p>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Working Hours</h4>
+          <p class="hours-row"><span>Mon – Sat:</span> <strong>8:00 AM – 8:00 PM</strong></p>
+          <p class="hours-row"><span>Sunday:</span> <strong>10:00 AM – 4:00 PM</strong></p>
+          <div class="footer-emergency-badge">
+            <span class="badge-dot"></span>
+            <div>
+              <strong>Emergency Dental Line</strong>
+              <p>+254 703 222 228</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Deans Dental Clinic. All Rights Reserved. KMPDC Licensed Dental Practice.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+

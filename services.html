@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dental Services & Treatments | Deans Dental Clinic Nairobi</title>
+  <meta name="description" content="Explore advanced dental services at Deans Dental Clinic Nairobi: teeth whitening, braces, dental implants, pediatric dentistry, root canals, and extractions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-container">
+      <div class="top-bar-locations">
+        <span class="location-pill"><i class="icon-pin"></i> <strong>Garden City:</strong> 2nd Flr, Next to KCB (Thika Rd)</span>
+        <span class="location-pill"><i class="icon-pin"></i> <strong>Runda:</strong> 2nd Flr, Runda Mall (Kiambu Rd)</span>
+      </div>
+      <div class="top-bar-contact">
+        <a href="mailto:info@deans.co.ke" class="contact-link"><i class="icon-mail"></i> info@deans.co.ke</a>
+        <a href="tel:+254703222228" class="contact-link emergency-highlight"><i class="icon-phone"></i> 24/7 Hotline: +254 703 222 228</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="navbar">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo.png" alt="Deans Dental Clinic" class="logo-image" />
+      </a>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="services.html" class="nav-link active">Services</a></li>
+          <li><a href="pricing.html" class="nav-link">Pricing & Insurance</a></li>
+          <li><a href="branches.html" class="nav-link">Clinics</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+254703222228" class="btn btn-outline btn-sm header-call-btn"><i class="icon-phone"></i> Call Now</a>
+        <a href="booking.html" class="btn btn-primary btn-sm"><i class="icon-calendar"></i> Book Appointment</a>
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <img src="assets/images/logo.png" alt="Deans Dental" class="mobile-logo" />
+      <button type="button" class="close-drawer" id="closeDrawer">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+      <li><a href="services.html" class="mobile-nav-link">Dental Services</a></li>
+      <li><a href="pricing.html" class="mobile-nav-link">Pricing & Insurance</a></li>
+      <li><a href="branches.html" class="mobile-nav-link">Our Clinics</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+    </ul>
+    <div class="mobile-drawer-footer">
+      <a href="booking.html" class="btn btn-primary btn-block">Book Appointment Online</a>
+    </div>
+  </div>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <main>
+    <!-- PAGE HERO BANNER -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="page-hero-tag">Specialized Oral Healthcare</span>
+        <h1 class="page-hero-title">Our Dental Services & Treatments</h1>
+        <p class="page-hero-desc">
+          State-of-the-art restorative, cosmetic, orthodontic, and surgical dentistry delivered with pain-free numbing and modern digital equipment.
+        </p>
+        <div class="breadcrumb-nav">
+          <a href="index.html">Home</a> &gt; <span>Dental Services</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FULL SERVICES DIRECTORY -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="service-tabs" role="tablist">
+            <button type="button" class="tab-btn active" data-filter="all">All Procedures</button>
+            <button type="button" class="tab-btn" data-filter="cosmetic">Cosmetic & Whitening</button>
+            <button type="button" class="tab-btn" data-filter="orthodontics">Braces & Aligners</button>
+            <button type="button" class="tab-btn" data-filter="restorative">Restorative & Implants</button>
+            <button type="button" class="tab-btn" data-filter="general">General & Kids</button>
+            <button type="button" class="tab-btn" data-filter="surgical">Surgical Care</button>
+          </div>
+        </div>
+
+        <div class="services-grid" id="servicesGrid">
+          <!-- Service 1: Teeth Whitening -->
+          <div class="service-card" data-category="cosmetic">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=600&q=80" alt="Teeth Whitening" class="service-img" />
+              <span class="service-tag cosmetic">Cosmetic</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-clock"></i> 45 - 60 mins</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> 100% Painless</span>
+              </div>
+              <h3 class="service-title">Professional Teeth Whitening</h3>
+              <p class="service-desc">
+                In-office laser whitening and custom take-home kits that lift coffee, tea, and tobacco stains up to 8 shades lighter in a single visit without sensitivity.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Philips Zoom Laser Technology</li>
+                <li><i class="icon-check"></i> Sensitivity-barrier gum protection</li>
+                <li><i class="icon-check"></i> Free post-whitening touch-up pen</li>
+              </ul>
+              <div class="service-footer">
+                <a href="booking.html?service=Teeth+Whitening" class="btn btn-outline btn-sm btn-block">Schedule Whitening &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2: Braces & Aligners -->
+          <div class="service-card" data-category="orthodontics">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=600&q=80" alt="Braces Nairobi" class="service-img" />
+              <span class="service-tag ortho">Orthodontics</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-calendar"></i> Monthly Checkups</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Teens & Adults</span>
+              </div>
+              <h3 class="service-title">Affordable Braces & Clear Aligners</h3>
+              <p class="service-desc">
+                Straighten crowded, gapped, or crooked teeth with traditional metal brackets, tooth-colored ceramic brackets, or discreet Invisalign clear trays.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Flexible monthly installment payments</li>
+                <li><i class="icon-check"></i> 3D digital bite alignment simulation</li>
+                <li><i class="icon-check"></i> Complimentary retainers upon completion</li>
+              </ul>
+              <div class="service-footer">
+                <a href="booking.html?service=Braces" class="btn btn-outline btn-sm btn-block">Schedule Ortho Consult &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3: Implants -->
+          <div class="service-card" data-category="restorative">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=80" alt="Dental Implants" class="service-img" />
+              <span class="service-tag restorative">Restorative</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-shield"></i> Lifetime Durability</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Natural Aesthetic</span>
+              </div>
+              <h3 class="service-title">Permanent Dental Implants</h3>
+              <p class="service-desc">
+                Replace missing teeth permanently with biocompatible medical-grade titanium posts and custom zirconia porcelain crowns designed to look and function like real teeth.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> 3D guided computer placement</li>
+                <li><i class="icon-check"></i> Prevents jawbone deterioration</li>
+                <li><i class="icon-check"></i> Single tooth to full-arch restoration</li>
+              </ul>
+              <div class="service-footer">
+                <a href="booking.html?service=Dental+Implants" class="btn btn-outline btn-sm btn-block">Book Implant Consult &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 4: Routine Cleaning -->
+          <div class="service-card" data-category="general">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80" alt="Cleaning & Scaling" class="service-img" />
+              <span class="service-tag general">General</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-clock"></i> 30 - 45 mins</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Ultrasonic Scaling</span>
+              </div>
+              <h3 class="service-title">Dental Cleaning & Tartar Removal</h3>
+              <p class="service-desc">
+                Prevent gingivitis, bleeding gums, and bad breath with our gentle ultrasonic scaling procedure that breaks down stubborn calculus without scraping tooth enamel.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Painless ultrasonic plaque breakdown</li>
+                <li><i class="icon-check"></i> Air-flow polishing & fluoride treatment</li>
+                <li><i class="icon-check"></i> Digital oral exam & gum health score</li>
+              </ul>
+              <div class="service-footer">
+                <a href="booking.html?service=Dental+Cleaning" class="btn btn-outline btn-sm btn-block">Book Cleaning &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 5: Root Canal -->
+          <div class="service-card" data-category="restorative">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=600&q=80" alt="Root Canal Therapy" class="service-img" />
+              <span class="service-tag restorative">Endodontics</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-clock"></i> 60 mins</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Immediate Relief</span>
+              </div>
+              <h3 class="service-title">Painless Root Canal Therapy</h3>
+              <p class="service-desc">
+                Eliminate acute tooth nerve pain and save severely damaged teeth from extraction. Using computerized rotary endodontics, we clean and seal internal roots safely.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Complete local anesthetic numbness</li>
+                <li><i class="icon-check"></i> Rotary files for faster, safer cleaning</li>
+                <li><i class="icon-check"></i> Covered by major Kenyan insurances</li>
+              </ul>
+              <div class="service-footer">
+                <a href="booking.html?service=Root+Canal" class="btn btn-outline btn-sm btn-block">Relieve Toothache &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 6: Pediatric Dentistry -->
+          <div class="service-card" data-category="general">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Kids Dentistry" class="service-img" />
+              <span class="service-tag general">Pediatric</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-heart"></i> Child Friendly</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Anxiety Free</span>
+              </div>
+              <h3 class="service-title">Pediatric & Kids Dental Care</h3>
+              <p class="service-desc">
+                Gentle checkups, dental sealants, and cavity fillings for toddlers and schoolchildren. Our friendly pediatric specialists make every visit entertaining and stress-free.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Cavity preventative molar sealants</li>
+                <li><i class="icon-check"></i> Habit correction (thumb-sucking, tongue-thrust)</li>
+                <li><i class="icon-check"></i> Fun rewards & positive conditioning</li>
+              </ul>
+              <div class="service-footer">
+                <a href="booking.html?service=Pediatric+Care" class="btn btn-outline btn-sm btn-block">Book for Child &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 7: Veneers & Crowns -->
+          <div class="service-card" data-category="cosmetic">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80" alt="Porcelain Veneers" class="service-img" />
+              <span class="service-tag cosmetic">Cosmetic</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-sparkles"></i> Smile Design</span>
+                <span class="meta-pill pain-free"><i class="icon-shield"></i> 10+ Yr Lifespan</span>
+              </div>
+              <h3 class="service-title">Porcelain Veneers & Crowns</h3>
+              <p class="service-desc">
+                Custom handcrafted ceramic shells bonded to front teeth to mask discoloration, chips, cracks, and small gaps for a stunning, natural Hollywood smile makeover.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Ultra-thin natural translucent porcelain</li>
+                <li><i class="icon-check"></i> Highly resistant to coffee & tea stains</li>
+                <li><i class="icon-check"></i> Customized shape & facial proportioning</li>
+              </ul>
+              <div class="service-footer">
+                <a href="booking.html?service=Porcelain+Veneers" class="btn btn-outline btn-sm btn-block">Design Your Smile &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 8: Wisdom Teeth Removal -->
+          <div class="service-card" data-category="surgical">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80" alt="Wisdom Teeth" class="service-img" />
+              <span class="service-tag surgical">Surgical</span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta">
+                <span class="meta-pill"><i class="icon-clock"></i> 30 - 60 mins</span>
+                <span class="meta-pill pain-free"><i class="icon-smile"></i> Atraumatic Care</span>
+              </div>
+              <h3 class="service-title">Wisdom Teeth Extractions</h3>
+              <p class="service-desc">
+                Atraumatic surgical removal of impacted, painful, or misaligned third molars. We prioritize minimal tissue disruption and quick healing with comprehensive post-op care.
+              </p>
+              <ul class="service-perks">
+                <li><i class="icon-check"></i> Digital panoramic 3D scan mapping</li>
+                <li><i class="icon-check"></i> Profound painless local anesthesia</li>
+                <li><i class="icon-check"></i> Free follow-up healing assessment</li>
+              </ul>
+              <div class="service-footer">
+                <a href="booking.html?service=Wisdom+Teeth" class="btn btn-outline btn-sm btn-block">Book Extraction &rarr;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-inner">
+          <div class="cta-content">
+            <span class="cta-eyebrow">Personalized Dental Treatment</span>
+            <h2 class="cta-heading">Not Sure Which Treatment You Need?</h2>
+            <p class="cta-desc">
+              Book a comprehensive oral consultation and digital exam at Garden City Mall or Runda Mall. Our dentists will guide you step-by-step.
+            </p>
+            <div class="cta-buttons">
+              <a href="booking.html" class="btn btn-primary btn-lg"><i class="icon-calendar"></i> Book Consultation Now</a>
+              <a href="pricing.html" class="btn btn-white btn-lg"><i class="icon-shield"></i> View Pricing & Insurance</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand-col">
+          <img src="assets/images/logo.png" alt="Deans Dental Clinic" class="footer-logo" />
+          <p class="footer-bio">
+            Deans Dental Care is Nairobi’s premier dental center, delivering compassionate, world-class dental treatments across Garden City Mall and Runda Mall. Over 25 years of restoring happy, healthy smiles.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Dental Services</a></li>
+            <li><a href="pricing.html">Pricing & Insurance</a></li>
+            <li><a href="branches.html">Clinics & Locations</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Our Clinics</h4>
+          <div class="footer-branch-item">
+            <strong>Garden City Mall Clinic:</strong>
+            <p>2nd Floor (Next to KCB Bank), Thika Road, Nairobi</p>
+            <p><a href="tel:+254703222228">+254 703 222 228</a></p>
+          </div>
+          <div class="footer-branch-item">
+            <strong>Runda Mall Clinic:</strong>
+            <p>2nd Floor, Kiambu Road, Nairobi</p>
+            <p><a href="tel:+254703222227">+254 703 222 227</a></p>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Working Hours</h4>
+          <p class="hours-row"><span>Mon – Sat:</span> <strong>8:00 AM – 8:00 PM</strong></p>
+          <p class="hours-row"><span>Sunday:</span> <strong>10:00 AM – 4:00 PM</strong></p>
+          <div class="footer-emergency-badge">
+            <span class="badge-dot"></span>
+            <div>
+              <strong>Emergency Dental Line</strong>
+              <p>+254 703 222 228</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Deans Dental Clinic. All Rights Reserved. KMPDC Licensed Dental Practice.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+
