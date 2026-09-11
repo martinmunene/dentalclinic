@@ -45,19 +45,14 @@ export const MobileDrawer: React.FC<MobileDrawerProps> = ({
       >
         {/* Drawer Header */}
         <div className="p-5 border-b border-slate-100 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <img
-              src="/assets/images/logo.png"
-              alt="Deans Dental"
-              className="h-9 w-auto"
-              onError={(e) => {
-                e.currentTarget.style.display = 'none';
-              }}
-            />
-            <span className="font-heading text-lg font-bold text-primary">
-              Deans Dental
-            </span>
-          </div>
+          <img
+            src="/assets/images/logo.png"
+            alt="Deans Dental Clinic Nairobi"
+            className="h-11 w-auto object-contain"
+            onError={(e) => {
+              e.currentTarget.style.display = 'none';
+            }}
+          />
           <button
             onClick={onClose}
             className="p-2 rounded-xl text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-colors"

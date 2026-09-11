@@ -47,24 +47,17 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Logo */}
         <button
           onClick={() => onNavigate('home')}
-          className="flex items-center space-x-3 text-left focus:outline-none group"
+          className="flex items-center text-left focus:outline-none group"
+          aria-label="Deans Dental Clinic Nairobi — Home"
         >
           <img
             src="/assets/images/logo.png"
-            alt="Deans Dental Clinic"
-            className="h-10 sm:h-12 w-auto object-contain brightness-0 invert transition-transform group-hover:scale-105"
+            alt="Deans Dental Clinic Nairobi"
+            className="h-11 sm:h-14 w-auto object-contain transition-transform group-hover:scale-105"
             onError={(e) => {
               e.currentTarget.style.display = 'none';
             }}
           />
-          <div className="flex flex-col">
-            <span className="font-heading text-xl sm:text-2xl font-bold text-white tracking-tight leading-none">
-              Deans Dental
-            </span>
-            <span className="text-[10px] sm:text-xs font-medium uppercase tracking-[0.25em] text-accent-mint">
-              Clinic Nairobi
-            </span>
-          </div>
         </button>
 
         {/* Desktop Nav Links */}
