@@ -37,10 +37,10 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <header
-      className={`sticky top-0 z-40 transition-all duration-300 ${
+      className={`sticky top-0 z-40 transition-all duration-300 border-b ${
         scrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-md py-3'
-          : 'bg-white py-4 border-b border-slate-100'
+          ? 'bg-navy-900/90 backdrop-blur-xl shadow-lux border-white/10 py-3'
+          : 'section-dark border-white/5 py-4'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
@@ -52,17 +52,16 @@ export const Navbar: React.FC<NavbarProps> = ({
           <img
             src="/assets/images/logo.png"
             alt="Deans Dental Clinic"
-            className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-105"
+            className="h-10 sm:h-12 w-auto object-contain brightness-0 invert transition-transform group-hover:scale-105"
             onError={(e) => {
-              // Fallback if image fails to load
               e.currentTarget.style.display = 'none';
             }}
           />
           <div className="flex flex-col">
-            <span className="font-heading text-xl sm:text-2xl font-bold text-primary tracking-tight leading-none">
+            <span className="font-heading text-xl sm:text-2xl font-bold text-white tracking-tight leading-none">
               Deans Dental
             </span>
-            <span className="text-[10px] sm:text-xs font-medium uppercase tracking-widest text-slate-500">
+            <span className="text-[10px] sm:text-xs font-medium uppercase tracking-[0.25em] text-accent-mint">
               Clinic Nairobi
             </span>
           </div>
@@ -78,8 +77,8 @@ export const Navbar: React.FC<NavbarProps> = ({
                 onClick={() => onNavigate(link.id)}
                 className={`px-3 py-2 rounded-lg text-sm font-semibold transition-colors duration-200 ${
                   isActive
-                    ? 'text-primary bg-primary-light font-bold'
-                    : 'text-slate-600 hover:text-primary hover:bg-slate-50'
+                    ? 'text-white bg-white/10'
+                    : 'text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
                 {link.label}
@@ -92,15 +91,15 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="flex items-center space-x-2 sm:space-x-3">
           <a
             href="tel:+254703222228"
-            className="hidden sm:inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl text-sm font-semibold border border-primary/20 text-primary hover:bg-primary-50 transition-colors"
+            className="hidden sm:inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl text-sm font-semibold border border-accent-teal/40 text-accent-mint hover:bg-accent-teal/10 transition-colors"
           >
-            <Phone className="w-4 h-4 text-primary" />
+            <Phone className="w-4 h-4" />
             <span>Call Now</span>
           </a>
 
           <button
             onClick={() => onOpenBooking()}
-            className="inline-flex items-center space-x-2 px-4 py-2 rounded-xl text-sm font-semibold bg-primary text-white shadow-sm hover:bg-primary-dark transition-all transform hover:-translate-y-0.5 shadow-primary/20"
+            className="inline-flex items-center space-x-2 px-4 py-2 rounded-xl text-sm font-semibold primary-gradient text-white shadow-glow hover:shadow-glow-blue transition-all transform hover:-translate-y-0.5"
           >
             <Calendar className="w-4 h-4" />
             <span className="hidden xs:inline">Book Appointment</span>
@@ -110,7 +109,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Mobile Menu Button */}
           <button
             onClick={onOpenMobileMenu}
-            className="lg:hidden p-2 rounded-xl text-slate-600 hover:text-primary hover:bg-slate-100 transition-colors focus:outline-none"
+            className="lg:hidden p-2 rounded-xl text-slate-200 hover:text-white hover:bg-white/10 transition-colors focus:outline-none"
             aria-label="Open Navigation Menu"
           >
             <Menu className="w-6 h-6" />

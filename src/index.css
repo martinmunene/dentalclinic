@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,28 +8,63 @@
   html {
     scroll-behavior: smooth;
     font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
-    color: #1e293b;
+    color: #0f1e38;
     background-color: #ffffff;
   }
 }
 
 .font-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', Georgia, serif;
+  letter-spacing: -0.01em;
 }
 
-/* Glassmorphism & Custom Accents */
+/* ---- Luxury surfaces & accents ---- */
+
+/* Light editorial hero wash (used on inner pages) */
+.hero-gradient {
+  background: radial-gradient(circle at 85% 15%, #e4f4f1 0%, #ffffff 55%, #eef4ff 100%);
+}
+
+/* Signature dark luxury backdrop */
+.hero-lux {
+  background:
+    radial-gradient(circle at 78% 12%, rgba(20, 184, 166, 0.20) 0%, transparent 45%),
+    radial-gradient(circle at 12% 85%, rgba(26, 95, 208, 0.28) 0%, transparent 45%),
+    linear-gradient(160deg, #050d1e 0%, #0a1a33 55%, #071328 100%);
+}
+
+.section-dark {
+  background: linear-gradient(160deg, #050d1e 0%, #0a1a33 100%);
+}
+
+/* Frosted glass — light and dark variants */
 .glass-panel {
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(226, 232, 240, 0.8);
 }
 
-.hero-gradient {
-  background: radial-gradient(circle at 85% 20%, #e0f2fe 0%, #ffffff 55%, #f0f7ff 100%);
+.glass-dark {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .primary-gradient {
-  background: linear-gradient(135deg, #1855c8 0%, #0d9488 100%);
+  background: linear-gradient(135deg, #1a5fd0 0%, #14b8a6 100%);
+}
+
+.lux-text-gradient {
+  background: linear-gradient(100deg, #38bdf8 0%, #2dd4bf 55%, #d9b878 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Thin luxury divider line */
+.lux-rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(20, 184, 166, 0.6), transparent);
 }
 
 .pulse-circle {
@@ -37,7 +72,7 @@
 }
 
 @keyframes pulse-ring {
-  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-  70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
-  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(20, 184, 166, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(20, 184, 166, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(20, 184, 166, 0); }
 }
